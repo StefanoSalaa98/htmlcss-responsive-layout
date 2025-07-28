@@ -63,7 +63,7 @@ header{
 
 .presentazione .immagine{
    
-    height:150px;
+    height:200px;
     
 }
 
@@ -117,5 +117,16 @@ footer{
 
     .banner{
         display:none;
+    }
+    
+    /*sezione presentazione*/
+    
+    .float{
+        float:none;
+    }
+
+    .presentazione .immagine{
+   
+        text-align:center;
     }
 }
