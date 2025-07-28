@@ -119,6 +119,18 @@ footer{
         display:none;
     }
 
+    /*sezione footer*/
+    footer{
+        display:block;
+        text-align:center;
+    }
+
+    .footer-dx ul{
+        display:flex;
+        justify-content:center;
+        gap:10%;
+    }
+
 }
 
 @media screen and (max-width:640px){
