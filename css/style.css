@@ -213,8 +213,10 @@ footer{
 
     .social{
         justify-content:space-between;
-        gap:15%;
+        gap:10%;
     }
+
+    
 
     .extra, .banner{
         display:none;
