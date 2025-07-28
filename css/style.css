@@ -150,6 +150,10 @@ footer{
 
 @media screen and (max-width:1020px){
 
+    .container{
+        width:90%;
+    }
+
     /*Sezione header-ricetta*/
 
     .header-ricetta{
@@ -195,6 +199,10 @@ footer{
 
 @media screen and (max-width:640px){
 
+    .container{
+        width:95%;
+    }
+
     /*sezione header*/
 
     header{
@@ -205,13 +213,8 @@ footer{
 
     .social{
         justify-content:space-between;
-        gap:30px;
+        gap:15%;
         background-color: blueviolet;
-    }
-
-    .bottone{
-        padding: 10px 0px;
-        border-radius: 20px;
     }
 
     .extra, .banner{
