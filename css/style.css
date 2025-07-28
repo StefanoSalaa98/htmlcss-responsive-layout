@@ -78,10 +78,25 @@ header{
 /*Regole Footer*/
 
 footer{
+    color:white;
+    display:flex;
+    justify-content:space-between;
+
     /*DEBUG*/
     height:100px;
     background-color: black;
 }
+
+.footer-sx{
+    /*DEBUG*/
+    background-color: goldenrod;
+}
+
+.footer-dx{
+    /*DEBUG*/
+    background-color: rgb(115, 255, 0);
+}
+
 
 /*Regole Responsive*/
 
@@ -120,7 +135,7 @@ footer{
     }
     
     /*sezione presentazione*/
-    
+
     .float{
         float:none;
     }
