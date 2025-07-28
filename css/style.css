@@ -13,7 +13,6 @@ header{
     margin:0 auto;
 
     /*DEBUG*/
-    height:1000px;
     background-color: lightgreen;
 }
 
@@ -81,9 +80,11 @@ footer{
     color:white;
     display:flex;
     justify-content:space-between;
+    margin-top:50px;
+    padding-bottom:50px;
 
     /*DEBUG*/
-    height:100px;
+    
     background-color: black;
 }
 
@@ -155,5 +156,12 @@ footer{
     .presentazione .immagine{
    
         text-align:center;
+    }
+
+    /*sezione footer*/
+
+    .footer-dx ul{
+        flex-wrap:wrap;
+        gap:5%;
     }
 }
