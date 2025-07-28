@@ -54,6 +54,13 @@ header{
     border: 1px solid black;
 }
 
+.banner{
+
+    /*DEBUG*/
+    height:100px;
+    background-color: orange;
+}
+
 /*Regole Footer*/
 
 footer{
@@ -92,5 +99,9 @@ footer{
     .social{
         gap:3rem;
         background-color: blueviolet;
+    }
+
+    .banner{
+        display:none;
     }
 }
