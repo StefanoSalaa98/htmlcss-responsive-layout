@@ -127,22 +127,27 @@ footer{
     color:white;
     display:flex;
     justify-content:space-between;
+    align-items:center;
     margin-top:50px;
-    padding-bottom:50px;
+    padding:20px;
 
     /*DEBUG*/
     
     background-color: black;
 }
 
-.footer-sx{
-    /*DEBUG*/
-    background-color: goldenrod;
+footer a{
+    color:white;
 }
 
-.footer-dx{
-    /*DEBUG*/
-    background-color: rgb(115, 255, 0);
+.footer-dx ul{
+    display:flex;
+    gap:10px;
+}
+
+.footer-sx strong{
+    display:inline-block;
+    margin-bottom:10px;
 }
 
 
