@@ -41,6 +41,18 @@ header{
     background-color: darkgreen;
 }
 
+.social{
+    display:flex;
+}
+
+.social li{
+    width:20%;
+
+    /*DEBUG*/
+    background-color: lightblue;
+    border: 1px solid black;
+}
+
 /*Regole Footer*/
 
 footer{
