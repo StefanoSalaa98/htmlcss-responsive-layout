@@ -12,6 +12,12 @@ header{
     color: #FF9614;  
 }
 
+ul{
+    list-style-type: none;
+    margin-left:0;
+    padding-left:0;
+}
+
 /*Regole Main*/
 
 main, footer{
@@ -75,15 +81,18 @@ h2{
 
 .social{
     display:flex;
-    gap:5px;
+    gap:15px;
 }
 
 .social li{
     width:20%;
+    text-align:center;
+}
 
-    /*DEBUG*/
-    background-color: lightblue;
-    border: 1px solid black;
+.bottone{
+    background-color:white;
+    padding: 10px 20px;
+    border-radius: 20px;
 }
 
 .banner{
@@ -160,7 +169,7 @@ footer{
 
    /*Sezione Social*/
 
-    .social li span{
+    .social li strong{
         display:none;
     }
 
@@ -189,8 +198,14 @@ footer{
     /*sezione social*/
 
     .social{
-        gap:3rem;
+        justify-content:space-between;
+        gap:30px;
         background-color: blueviolet;
+    }
+
+    .bottone{
+        padding: 10px 0px;
+        border-radius: 20px;
     }
 
     .extra, .banner{
