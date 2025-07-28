@@ -118,6 +118,7 @@ h2{
 
 .float{
     float:left;
+    margin-right:10px;
 }
 
 /*Regole Footer*/
@@ -221,6 +222,7 @@ footer{
 
     .float{
         float:none;
+        margin-bottom:10px;
     }
 
     .presentazione .immagine{
