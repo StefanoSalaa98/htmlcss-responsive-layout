@@ -1,9 +1,11 @@
 /*Regole Header*/
 
 header{
-    /*DEBUG*/
+    font-family: 'Nerko One', cursive;
+    font-size: 25px;
+    padding-left:15px;
     height:100px;
-    background-color: grey;
+    color: #FF9614;  
 }
 
 /*Regole Main*/
@@ -135,6 +137,12 @@ footer{
 }
 
 @media screen and (max-width:640px){
+
+    /*sezione header*/
+
+    header{
+        text-align:center;
+    }
 
     /*sezione social*/
 
