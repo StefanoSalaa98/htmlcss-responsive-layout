@@ -97,10 +97,14 @@ h2{
 
     margin-top:30px;
     margin-bottom:40px;
+    
+}
 
-    /*DEBUG*/
-    height:100px;
+.separatore{
+    width:10%;
+    height:2px;
     background-color: orange;
+    margin-bottom:30px;
 }
 
 .presentazione .immagine{
