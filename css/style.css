@@ -214,7 +214,6 @@ footer{
     .social{
         justify-content:space-between;
         gap:15%;
-        background-color: blueviolet;
     }
 
     .extra, .banner{
