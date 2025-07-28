@@ -1,4 +1,20 @@
-body{
+header{
+    /*DEBUG*/
+    height:100px;
+    background-color: grey;
+}
+
+.container{
+    width:70%;
+    margin:0 auto;
+
+    /*DEBUG*/
     height:1000px;
-    background-color:red;
+    background-color: lightgreen;
+}
+
+footer{
+    /*DEBUG*/
+    height:100px;
+    background-color: black;
 }
