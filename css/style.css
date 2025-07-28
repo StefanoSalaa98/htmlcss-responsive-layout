@@ -61,6 +61,20 @@ header{
     background-color: orange;
 }
 
+.presentazione .immagine{
+   
+    height:150px;
+    
+}
+
+.immagine img{
+    max-height:100%;
+}
+
+.float{
+    float:left;
+}
+
 /*Regole Footer*/
 
 footer{
