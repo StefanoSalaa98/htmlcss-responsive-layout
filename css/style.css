@@ -47,7 +47,7 @@ header{
 }
 
 .social li{
-    width:calc(20%- 20px);
+    width:20%;
 
     /*DEBUG*/
     background-color: lightblue;
