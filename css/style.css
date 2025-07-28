@@ -1,8 +1,12 @@
+/*Regole Header*/
+
 header{
     /*DEBUG*/
     height:100px;
     background-color: grey;
 }
+
+/*Regole Main*/
 
 .container{
     width:70%;
@@ -13,8 +17,49 @@ header{
     background-color: lightgreen;
 }
 
+.header-ricetta{
+    display:flex;
+
+    /*DEBUG*/
+    height:200px;
+    background-color: yellow;
+}
+
+.imm-ricetta{
+    width:70%;
+
+    /*DEBUG*/
+    height:100px;
+    background-color: green;
+}
+
+.info-ricetta{
+    width:30%;
+
+    /*DEBUG*/
+    height:100px;
+    background-color: darkgreen;
+}
+
+/*Regole Footer*/
+
 footer{
     /*DEBUG*/
     height:100px;
     background-color: black;
+}
+
+/*Regole Responsive*/
+
+@media screen and (max-width:1020px){
+
+    .header-ricetta{
+        display:block;
+    }
+
+    .imm-ricetta,
+    .info-ricetta{
+        width:100%;
+    }
+
 }
