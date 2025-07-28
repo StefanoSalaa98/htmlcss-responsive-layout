@@ -1,3 +1,7 @@
+*{
+    box-sizing: border-box;
+}
+
 /*Regole Header*/
 
 header{
@@ -9,6 +13,10 @@ header{
 }
 
 /*Regole Main*/
+
+main, footer{
+    font-family:  Montserrat, 'Helvetica Neue', sans-serif;
+}
 
 .container{
     width:70%;
@@ -22,7 +30,7 @@ header{
     display:flex;
 
     /*DEBUG*/
-    height:200px;
+    
     background-color: yellow;
 }
 
@@ -30,16 +38,31 @@ header{
     width:70%;
 
     /*DEBUG*/
-    height:100px;
-    background-color: green;
+    background-color: rgb(128, 0, 64);
+}
+
+.imm-ricetta img{
+    width:100%;
+    height:100%;
+    object-fit: cover;
 }
 
 .info-ricetta{
     width:30%;
+    padding-left:20px;
 
     /*DEBUG*/
-    height:100px;
     background-color: darkgreen;
+}
+
+.info-ricetta h3{
+    font-size:1.5rem;
+    margin-bottom:20px;
+}
+
+.info-ricetta span{
+    display:block;
+    margin-bottom:10px;
 }
 
 .social{
@@ -65,10 +88,9 @@ header{
 .presentazione .immagine{
    
     height:200px;
-    
 }
 
-.immagine img{
+.presentazione .immagine img{
     max-height:100%;
 }
 
@@ -114,6 +136,18 @@ footer{
     .imm-ricetta,
     .info-ricetta{
         width:100%;
+    }
+
+    .imm-ricetta img{
+        display:block;
+    }
+
+    .info-ricetta h3{
+        margin-top:0;
+    }
+
+    .info-ricetta{
+        padding-bottom:30px;
     }
 
    /*Sezione Social*/
