@@ -51,6 +51,10 @@ h2{
     display:flex;
 }
 
+.ombra{
+    box-shadow: 5px 5px 10px grey;
+}
+
 .imm-ricetta{
     width:70%;
 }
