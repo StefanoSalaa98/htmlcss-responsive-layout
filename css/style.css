@@ -183,7 +183,16 @@ footer a, footer strong, footer address{
     }
 
     .info-ricetta{
-        padding-bottom:30px;
+        padding:30px;
+    }
+
+    .info-ricetta ul{
+        display:flex;
+        flex-wrap: wrap;
+    }
+
+    .info-ricetta li{
+        width:calc(100% / 3);
     }
 
    /*Sezione Social*/
@@ -217,6 +226,13 @@ footer a, footer strong, footer address{
 
     header{
         text-align:center;
+    }
+
+    /*sezione header ricetta*/
+
+    .info-ricetta ul{
+        display: block;
+        flex-wrap: nowrap;
     }
  
     /*sezione social*/
