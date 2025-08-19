@@ -59,7 +59,7 @@ h2{
     width:70%;
 }
 
-.imm-ricetta img, .banner img{
+.imm-ricetta img, .banner img, video{
     width:100%;
     height:100%;
     object-fit: cover;
@@ -122,6 +122,12 @@ h2{
 
 .presentazione .immagine img{
     max-height:100%;
+}
+
+.presentazione::after{
+    display:table;
+    content:"";
+    clear:both;
 }
 
 .float{
@@ -256,6 +262,7 @@ footer a, footer strong, footer address{
 
     .float{
         float:none;
+        display:block;
         margin-bottom:10px;
     }
 
